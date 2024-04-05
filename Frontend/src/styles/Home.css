@@ -63,6 +63,18 @@
 .blog-catagories{
     margin-top: 10px;
     height: 15vh;
-    width: 100%;
-    background-color: aquamarine;
+    width: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.blog-selction{
+    height: auto;
+    padding: 10px;
+    width: 98%;
+    background-color: rgb(22, 72, 50);
+
 }

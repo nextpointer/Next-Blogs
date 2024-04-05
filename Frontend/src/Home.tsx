@@ -1,5 +1,6 @@
 // import styled from "styled-components";
 import "./styles/Home.css";
+import CatagoryButton from "./components/CatagoryButton";
 
 export const Home = () => {
   return (
@@ -18,7 +19,15 @@ export const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="blog-catagories"></div>
+        <div className="blog-catagories">
+            <CatagoryButton innerTxt="ALL"/>
+            <CatagoryButton innerTxt="Devlopement"/>
+            <CatagoryButton innerTxt="Psychology"/>
+            <CatagoryButton innerTxt="Others"/>
+        </div>
+        {/* <div className="blog-selction">
+            
+        </div> */}
       </div>
     </>
   );
