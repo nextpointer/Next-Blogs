@@ -20,7 +20,7 @@ const CatagoryButton=(props:Prop)=>{
 const CatBTN=styled.div`
     height: 50px;
     width: 160px;
-    border: 1px solid #929090;
+    border: 1px solid #505050;
     color: #fff;
     display: flex;
     justify-content: center;

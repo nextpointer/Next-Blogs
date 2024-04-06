@@ -1,7 +1,7 @@
-// import styled from "styled-components";
+
 import "./styles/Home.css";
 import CatagoryButton from "./components/CatagoryButton";
-
+import { BlogContainer } from "./components/BlogContainer";
 export const Home = () => {
   return (
     <>
@@ -25,10 +25,19 @@ export const Home = () => {
             <CatagoryButton innerTxt="Psychology"/>
             <CatagoryButton innerTxt="Others"/>
         </div>
-        {/* <div className="blog-selction">
-            
-        </div> */}
+        <div className="blog-selction">
+            <BlogContainer date="23 March" author="@surajit" image="/assets/a.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/2.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/3.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/4.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/5.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/6.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/2.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/3.jpg" Heading="Why i writing this blog?"/>
+            <BlogContainer date="23 March" author="@surajit" image="/assets/6.jpg" Heading="Can eevjif fjiojfiojijf jfjfj fhujfohuf jfoijoifj?"/>
+        </div>
       </div>
     </>
   );
 };
+ 
